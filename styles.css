@@ -264,3 +264,27 @@ footer {
     padding: 20px 0;
     font-size: 0.9em;
 }
+
+/* Redes Sociales en el Footer */
+footer .social-media {
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+footer .social-media a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: #ffffff; /* Color de las letras de los enlaces de redes sociales */
+    font-size: 1em; /* Tamaño de la fuente */
+    transition: color 0.3s ease-in-out; /* Transición suave para el cambio de color */
+}
+
+footer .social-media a:hover {
+    color: #ff4500; /* Color al pasar el mouse sobre el enlace */
+}
+
+footer .social-media img {
+    height: 24px; /* Ajusta el tamaño del ícono según tu diseño */
+    width: auto;
+}
